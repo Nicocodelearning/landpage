@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
@@ -103,4 +104,11 @@ button {
 
 .box button {
     border: #E5E7EB solid 1px;
+}
+
+.footer {
+    background-color: #17212D;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 10px;
 }
